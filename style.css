@@ -1,0 +1,68 @@
+/* Reset some default styles */
+body, h1, h2, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f6f8fa; /* Светло-серый фон, похожий на GitHub */
+    color: #24292e; /* Цвет текста GitHub */
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #24292e; /* Цвет навигационной панели GitHub */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #f6f8fa; /* Белый цвет для ссылок GitHub */
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #0366d6; /* Синий цвет при наведении на ссылку GitHub */
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #f6f8fa;
+    color: #24292e;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Изменение стилей для заголовков и ссылок для акцентов */
+h1, h2 {
+    color: #24292e; /* Цвет заголовков GitHub */
+}
+
+a {
+    color: #0366d6; /* Синий цвет ссылок GitHub */
+}
+
+a:hover {
+    color: #0580f6; /* Более яркий синий цвет при наведении на ссылку GitHub */
+}
+
+/* Добавьте дополнительные стили по вашему вкусу */
