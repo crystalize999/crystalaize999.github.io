@@ -1,0 +1,77 @@
+body {
+    background-color: #000;
+    font-family: Arial, sans-serif;
+}
+#time-tablew4 {
+    width: 100%;
+    overflow-x: auto;
+    margin-top: 20px;
+}
+
+.table-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+
+.headday, .headdate {
+    background-color: #333;
+    color: #fff;
+}
+
+.lesson {
+    font-weight: bold;
+}
+
+.start, .end {
+    font-style: italic;
+}
+
+
+.closed {
+    background-color: #ccc;
+}
+
+.cell {
+    padding: 5px;
+}
+
+.lesson-1 {
+    background-color: #23ab7e; 
+    border-radius: 5px;
+}
+
+[data-toggle="popover"] {
+    cursor: pointer;
+    position: relative;
+}
+
+[data-toggle="popover"]:hover:after {
+    content: attr(data-content);
+    background-color: #333;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 100%;
+    white-space: nowrap;
+    z-index: 1;
+}

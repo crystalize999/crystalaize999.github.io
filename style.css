@@ -1,4 +1,4 @@
-/* Reset some default styles */
+
 body, h1, h2, p, ul, li, a {
     margin: 0;
     padding: 0;
@@ -6,8 +6,8 @@ body, h1, h2, p, ul, li, a {
 
 body {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f6f8fa; /* Светло-серый фон, похожий на GitHub */
-    color: #24292e; /* Цвет текста GitHub */
+    background-color: #f6f8fa; 
+    color: #24292e; 
     line-height: 1.6;
     margin: 0;
     padding: 0;
@@ -29,12 +29,12 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #f6f8fa; /* Белый цвет для ссылок GitHub */
+    color: #f6f8fa; 
     font-weight: bold;
 }
 
 nav ul li a:hover {
-    color: #0366d6; /* Синий цвет при наведении на ссылку GitHub */
+    color: #0366d6; 
 }
 
 section {
@@ -52,17 +52,15 @@ footer {
     padding: 20px;
 }
 
-/* Изменение стилей для заголовков и ссылок для акцентов */
 h1, h2 {
-    color: #24292e; /* Цвет заголовков GitHub */
+    color: #24292e; 
 }
 
 a {
-    color: #0366d6; /* Синий цвет ссылок GitHub */
+    color: #0366d6; 
 }
 
 a:hover {
-    color: #0580f6; /* Более яркий синий цвет при наведении на ссылку GitHub */
+    color: #0580f6; 
 }
 
-/* Добавьте дополнительные стили по вашему вкусу */
